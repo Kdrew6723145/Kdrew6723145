@@ -1,6 +1,11 @@
 from turtle import *
 import turtle as tu
 
+
+screen=tu.Screen()
+screen.bgcolor("white")
+
+
 tu=tu.Turtle()
 
 
@@ -85,7 +90,7 @@ tu.left(180)
 tu.fd(60)
 tu.right(90)
 tu.circle(200,60)
-tu.done()
+screen.exitonclick()
 
 
 
